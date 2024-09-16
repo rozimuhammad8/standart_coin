@@ -4,7 +4,7 @@ const { UserCreate } = require('./Asists/User');
 const { GetReferals } = require('./Asists/GetReferals');
 const { MainMsg } = require('./Asists/MainMsg');
 
-var token = "7392358864:AAHnNDPRFK8HpAnK-MYLKESXQQMLxkIma-0"
+var token = "7392358864:AAEuvYNJpH00nTssVLTgEiwmYPORHafZOEg"
 
 const bot = new TelegramBot(token, { polling: true });
 
