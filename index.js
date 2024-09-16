@@ -130,8 +130,11 @@ bot.on("text", async (msg) => {
         }
       } catch (e) { 
         bot.sendMessage(adminID, "CHECK THE SERVER")
-        console.log(e) 
       }
+    }else{
+      bot.sendMessage(msg.chat.id, MainMsg(msg.from.id))
     }
+  }else{
+    bot.sendMessage(msg.chat.id, MainMsg(msg.from.id))
   }
 })
